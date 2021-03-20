@@ -1,0 +1,19 @@
+<%- include('header') -%>
+
+
+
+
+<div class="cust_main">
+  <% customers.forEach(function(cust){%>
+  <div class="card cust">
+    <div class="card-body cust-child">
+      <p class="item"><span id="name"><%=cust.name%> </span> <span id="email">Email: <%=cust.email%></span></p>
+      <a class="btn btn-primary but" href="/customer/<%=cust._id%> " role="button">Link</a>
+    </div>
+  </div>
+  <%});%>
+</div>
+
+
+
+<%- include('footer') -%>

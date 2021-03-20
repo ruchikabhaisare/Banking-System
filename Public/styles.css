@@ -1,0 +1,150 @@
+/* HomePage */
+
+.center{
+position: relative;
+min-height: 100vh;
+background-color: #7868e6;
+}
+.main{
+  height: 300px;
+  width: 300px;
+  background-color:#e7e6e1;
+  border-radius: 15px;
+  display: table;
+  text-align: center;
+  padding: 5px;
+  margin-right: 50px;
+  z-index: 2;
+  position: absolute;
+  top:200px;
+  right:100px;
+}
+.low{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_image{
+  height:150px;
+  width:150px;
+  margin:20px;
+}
+
+.bank_img{
+  height:500px;
+  width:1000px;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+  position: absolute;
+  top:100px;
+  left:50px;
+  border-radius: 10px;
+}
+
+.bank-logo{
+  height:70px;
+ width:70px;
+ margin-left: 10px;
+ border-radius: 100%;
+}
+.cust{
+  font-size: 30px;
+  margin:5px;
+  border-radius: 5px;
+  border: 0.5px solid #440a67;
+  text-align: center;
+  background-color: #edeef7;
+  width: 600px;
+}
+
+.trans_main{
+
+  position: relative;
+  text-align: center;
+  top:150px;
+  left:400px;
+  width: 500px;
+}
+
+#email{
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+}
+.item{
+display: inline;
+}
+.but{
+display: flex;
+justify-content: center;
+
+}
+.outer{
+  height: 300px;
+  width: 400px;
+  background-color: skyblue;
+}
+.cust_main{
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.tran_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+/* transactions */
+.table-box
+{
+    margin: 50px auto;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+
+.nav-link{
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}

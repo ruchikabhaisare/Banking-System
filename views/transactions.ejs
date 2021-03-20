@@ -1,0 +1,45 @@
+<%- include('header') -%>
+
+<div class="table-box">
+        <div class="table-row table-head">
+            <div class="table-cell first-cell">
+                <p>Date</p>
+            </div>
+            <div class="table-cell">
+                <p>Time</p>
+            </div>
+            <div class="table-cell">
+                <p>From Account</p>
+            </div>
+            <div class="table-cell">
+                <p>To Account</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>Amount</p>
+            </div>
+        </div>
+
+          <% trans.forEach(function(cust){%>
+
+        <div class="table-row">
+              <div class="table-cell first-cell">
+                  <p><%=cust.date%></p>
+              </div>
+              <div class="table-cell">
+                  <p><%=cust.time%></p>
+              </div>
+              <div class="table-cell">
+                  <p><%=cust.from%></p>
+              </div>
+              <div class="table-cell">
+                  <p><%=cust.to%></p>
+              </div>
+              <div class="table-cell last-cell">
+                  <p><%=cust.amt%></p>
+              </div>
+        </div>
+          <%});%>
+        </div>
+
+
+<%- include('footer') -%>
